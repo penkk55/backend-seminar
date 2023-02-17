@@ -1,0 +1,19 @@
+{
+  "name": "backend-seminar",
+  "version": "1.0.0",
+  "description": "test for Make Life Better Solutions co., ltd.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penkk55/backend-seminar.git"
+  },
+  "author": "Penk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penkk55/backend-seminar/issues"
+  },
+  "homepage": "https://github.com/penkk55/backend-seminar#readme"
+}
