@@ -1,0 +1,32 @@
+{
+  "name": "backend-seminar",
+  "version": "1.0.0",
+  "description": "test for Make Life Better Solutions co., ltd.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "knex migrate:latest",
+    "rollback": "knex migrate:rollback",
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penkk55/backend-seminar.git"
+  },
+  "author": "Penk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penkk55/backend-seminar/issues"
+  },
+  "homepage": "https://github.com/penkk55/backend-seminar#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "knex": "^2.4.2",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
