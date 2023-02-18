@@ -16,10 +16,11 @@
 * [x] speker
 * [x] host
 * [x] address
+      country ประเทศ  
       city จังหวัด
       district อำเภอ
       township ตำบล
-      country ประเทศ
+      
 * [x] web_url
 
 
