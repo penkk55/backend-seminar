@@ -44,8 +44,18 @@ challenge
 
 - [x]create simple API to get the list of visitor list base on/filter by seminar event.
 
+# DEMO https://backend-seminar.onrender.com
+# get event1 and all visitorlist
+https://backend-seminar.onrender.com/api/event/1/visitorList
+# simple create vistor 
+https://backend-seminar.onrender.com/api/visitor/addNewVisitor
 
-
+{
+    "name": "tryme",
+    "email": "try@xxx.xxx"
+}
+# simple getALL vistor 
+https://backend-seminar.onrender.com/api/visitor/getdata
 
 
 **
