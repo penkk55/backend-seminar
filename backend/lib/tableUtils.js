@@ -1,3 +1,5 @@
+/* eslint camelcase: ["error", {allow: ["table_name"]}] */
+
 const addDefaultColumns = (table) => {
   table.timestamps(false, true);
   table.datetime('deleted_at');

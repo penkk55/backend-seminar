@@ -9,3 +9,23 @@ const call = async () => {
   console.log('4444', data.name);
 };
 call();
+
+
+import knex from 'knex';
+
+export default function (config) {
+  const dbConnect = knex(config);
+  setInterval(async () => {
+    try {
+      await db.raw('select now()');
+      if (process.env.DEBUG) {
+        console.log('mysql keep OK');
+      }
+    } catch (error) {
+      console.log(error.message);
+    }
+  }, 5_000);
+
+  return dbConnect;
+}
+
