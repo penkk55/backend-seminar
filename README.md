@@ -27,7 +27,7 @@
 challenge
 * [x] design Database Table for seminar
      - https://lucid.app/documents/view/07f0b7e1-12c6-4db4-b71a-cb4bd4f15e1e
-     ![alt text](https://lucid.app/documents/view/07f0b7e1-12c6-4db4-b71a-cb4bd4f15e1e)
+     ![alt text](https://i.imgur.com/RF0K8ln.jpeg)
 * [x] knex connect
         npx knex init
         npx knex migrate:make inital
